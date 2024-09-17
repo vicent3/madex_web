@@ -366,6 +366,8 @@ nav input{
         Productos</a></li>
         <li><a href="<?php echo base_url(); ?>index.php/web/carrito ">
         Carrito</a></li>
+        <li><a href="<?php echo base_url(); ?>index.php/web/acerca ">
+        Acerca</a></li>
     </ul>
 	<h1>Welcome to Inicio!</h1>
 	<h1> <?php echo base_url();  ?> </h1>
