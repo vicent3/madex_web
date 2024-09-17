@@ -95,6 +95,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</div>
 
 	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
+	<div id="container">
+    <ul>
+        <li><a href="<?php echo base_url(); ?>index.php/web/index ">
+        Inicio</a></li>
+        <li><a href="<?php echo base_url(); ?>index.php/web/producto ">
+        Productos</a></li>
+        <li><a href="<?php echo base_url(); ?>index.php/web/carrito ">
+        Carrito</a></li>
+        <li><a href="<?php echo base_url(); ?>index.php/web/acerca ">
+        Acerca</a></li>
+    </ul>
+	<h1>Welcome to Inicio!</h1>
+	<h1> <?php echo base_url();  ?> </h1>
 </div>
 
 </body>

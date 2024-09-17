@@ -4,7 +4,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Welcome to CodeIgniter</title>
+	<title>Madex</title>
+    <link rel="icon" type="image/png" href="<?php echo base_url(); ?>/img/m.png">
 	<style type="text/css" >
 .card-container {
     display: flex;
