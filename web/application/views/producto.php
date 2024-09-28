@@ -13,8 +13,7 @@
         foreach ($categorias->result() as $row) { ?>
             <div class="card">
                 <div class="card-header">
-               <img class="me-3" width="auto;"
-                                height=" 50px" src="<?php echo $row->imagen; ?>" alt="">
+                    <img class="me-3" width="auto;" height=" 50px" src="<?php echo $row->imagen; ?>" alt="">
                     <h5 class="card-title"><?php echo $row->descripcion; ?></h5>
                     <h6 class="card-subtitle">Por <?php echo $row->id_categoria; ?></h6>
                     <h6 class="card-subtitle">Por <?php echo $row->stock; ?></h6>

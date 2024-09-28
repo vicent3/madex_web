@@ -1,6 +1,6 @@
 <style>
     .hero {
-      background: url('<?php echo base_url(); ?>/img/logop.png') no-repeat center center;
+      background: url('<?php echo base_url(); ?>/img/banner.JPG') no-repeat center center;
       background-size: cover;
       color: white;
       text-align: center;
